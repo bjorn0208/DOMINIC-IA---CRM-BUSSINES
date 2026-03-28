@@ -4,10 +4,15 @@
   --color-bg-deep: oklch(14.5% 0 0);
   --color-primary-vibrant: oklch(58.5% .233 277.117);
   --color-card-bg: oklch(20.5% 0 0);
+  --color-primary-glow: #3b82f6; /* Azul IA brilhante */
+  --color-success-neon: #10b981; /* Verde alerta grana */
+  --color-dark-glass: rgba(15, 15, 20, 0.6);
+  --color-border-glass: rgba(255, 255, 255, 0.08);
 }
 
 @layer base {
   body {
-    @apply bg-bg-deep text-white font-sans;
+    @apply bg-[#0a0a0c] text-neutral-200 font-sans tracking-tight;
   }
 }
+

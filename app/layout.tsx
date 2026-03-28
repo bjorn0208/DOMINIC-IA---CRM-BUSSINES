@@ -13,14 +13,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Luminous Workspace',
-  description: 'Plataforma SaaS de alta performance.',
+  title: 'DOMINIC BLACK | CRM & AI',
+  description: 'Máquina completa de aquisição + fechamento de clientes',
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="pt-BR" className={`${figtree.variable} ${inter.variable}`}>
-      <body className="antialiased">{children}</body>
+    <html lang="pt-BR" className={`${figtree.variable} ${inter.variable} dark`}>
+      <body className="antialiased dark:bg-bg-deep dark:text-white">{children}</body>
     </html>
   );
 }
