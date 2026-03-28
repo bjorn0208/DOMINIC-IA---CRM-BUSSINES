@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-deep: oklch(14.5% 0 0);
+  --color-primary-vibrant: oklch(58.5% .233 277.117);
+  --color-card-bg: oklch(20.5% 0 0);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-deep text-white font-sans;
+  }
+}
